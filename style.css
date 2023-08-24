@@ -11,7 +11,7 @@ body{
      display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
     
 }
 
@@ -56,6 +56,43 @@ p {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+
+
+.author{
+margin-top: 70px;
+    display: flex;
+    flex-direction:row;
+
+}
+
+.a-image img{
+border-radius: 100%;
+    width: 60px;
+margin-left: 20px;
+}
+
+
+.name{
+margin-left: 20px;
+ color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.date{
+    margin: 0px;
+}
+
+.sharebtn{
+     background: hsl(210, 46%, 95%);
+    border-radius: 100%;
+    width: 30px;
+    cursor: pointer;
+    height: 30px;
+     transform: translateX(7px) translateY(7px);
+     margin-left: 198px;
+}
 @media screen and (max-width:880px) {
   .card{
    width:100%;
@@ -94,5 +131,44 @@ p {
     text-align: left;
     color: hsl(212, 23%, 69%);
     font-weight: 500;
+}
+
+
+
+
+
+.author{
+margin-top: 70px;
+    display: flex;
+    flex-direction:row;
+
+}
+
+.a-image img{
+border-radius: 100%;
+    width: 60px;
+margin-left: 20px;
+}
+
+
+.name{
+margin-left: 20px;
+ color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.date{
+    margin: 0px;
+}
+
+.sharebtn{
+     background: hsl(210, 46%, 95%);
+    border-radius: 100%;
+    width: 30px;
+    cursor: pointer;
+    height: 30px;
+     transform: translateX(7px) translateY(7px);
+     margin-left: 20px;
 }
 }
