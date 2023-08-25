@@ -197,21 +197,16 @@ margin-top: 70px;
 
 .a-image img{
 border-radius: 100%;
-    width: 40px;
+    width: 35px;
 margin-left: 20px;
 }
 
 
 .name{
-margin-right: 13px;
+margin-left: 30px;
  color: hsl(217, 19%, 35%);
     font-weight: 700;
-    font-size: 15px;
-}
-
-
-.h-name{
-margin-right: 13px;
+    font-size: 13px;
 }
 
 .date{
@@ -219,7 +214,7 @@ margin-right: 13px;
 }
 
 .tooltip{
-  margin-left: 20px;
+  margin-left: 30px;
    top: 100%;
   left: 2%;
   
